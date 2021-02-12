@@ -7,15 +7,10 @@ namespace CSharp_Arrays
         static void Main(string[] args)
         {
             //Practice: Creating arrays
-            string unitId01 = "OSC";
-            string unitId02 = "FLT";
-            string unitId03 = "FX1";
-            string unitId04 = "ADSR";
+            int[] synthModuals = new int[4];
+            synthModuals = new int[] { 2, 44, 5 };
 
-            string[] units = new string[] {};
-
-
-            Console.WriteLine(unitId01);
+            Console.WriteLine(synthModuals);
         }
     }
 }
